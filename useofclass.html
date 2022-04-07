@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use of Class</title>
+    <style>
+        .note{
+            font-family: cursive;
+            color: blue;
+        }
+    </style>
+</head>
+<body class="note">
+    <h2>Use of Class in this small file</h2>
+    <p>This is a <strong>Note:</strong> for me that define the use of class</p>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+
+      <h2>Testing Form</h2>
+    <form action="mailto:tricolqweas@gmail.com" target="_blank" method="post" autocomplete="on" novalidate enctype="text/plain">
+        <!-- Notes on GET:
+
+        Appends the form data to the URL, in name/value pairs
+        NEVER use GET to send sensitive data! (the submitted form data is visible in the URL!)
+        The length of a URL is limited (2048 characters)
+        Useful for form submissions where a user wants to bookmark the result
+        GET is good for non-secure data, like query strings in Google
+
+        Notes on POST:
+
+        Appends the form data inside the body of the HTTP request (the submitted form data is not shown in the URL)
+        POST has no size limitations, and can be used to send large amounts of data.
+        Form submissions with POST cannot be bookmarked) -->
+        <label for="fname">First Name</label>
+        <!-- name attribute is omitted, the value of the input field will not be sent at all. -->
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="mname">Middle Name</label>
+        <input type="text" id="mname" name="mname" value=""><br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" value=""><br>
+        <label for="js"><strong>Gender:</strong></label>
+
+        <label for="js">Male</label>
+        <input type="radio" id="js" name="Gender" value="">
+        <label for="js">Female</label>
+        <input type="radio" id="js" name="Gender" value="">
+        <label for="js">Other</label>
+        <input type="radio" id="js" name="Gender" value=""><br><br>
+        
+        <label for="date">D.O.B</label>
+        <input type="date" name="" id=""><br><br>
+        <input type="checkbox" id="V1" name="V1" value="">
+        <label for="V1">I have Bike(2 wheeler)</label><br>
+        <input type="checkbox" id="V2" name="V2" value="">
+        <label for="V2">I have Car(4 wheeler)</label><br>
+        <input type="checkbox" id="V3" name="V3" value="">
+        <label for="V3">I have Boat</label><br><br>
+        <label for="id_proof">Choose an Id Proof</label>
+        <input type="file" name="" id=""><br><br>
+        <label for="Email">Email</label>
+        <input type="email"><br>
+        <label for="Password">Password</label>
+        <input type="password"><br>
+        <input type="color"><br>
+        <input type="range"><br>
+        <label for="Telephone Number">Telephone Number</label>
+        <input type="tel" value="+91-"><br>
+        <label for="Url">Url</label>
+        <input type="url"><br>
+        <label for="Time">Time</label>
+        <input type="time"><br>
+<label for="search">Search</label>
+        <input type="search"><br>
+        <label for="month">Month</label>
+        <input type="month"><br>
+        <label for="DateTime">Date Time</label>
+        <input type="datetime"><br>
+        <label for="datetime-local">Date Time Local</label>
+        <input type="datetime-local"><br>
+        <input type="submit" value="submit">
+        <input type="reset" name="" id="">
+    </form>
+    <a href="contact_form.html">Contact us</a><br>
+    <a href="anothertest.html">another test page</a>
+</body>
+</html>
